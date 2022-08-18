@@ -1,0 +1,25 @@
+ #include<stdio.h>
+
+int main()
+{
+int a[20];
+int n,i,sum=0, num, temp;
+scanf("%d",&n);
+for(i=0;i<n-1;i++)
+{
+scanf("%d",&a[i]);
+}
+for(i=0;i<n-1;i++)
+{
+sum=sum+a[i];
+}
+temp=(n*(n+1))/2;
+num=temp-sum;
+printf("%d",num);
+    return 0;
+}
+
+  output:
+ 10
+1234567910
+8     
