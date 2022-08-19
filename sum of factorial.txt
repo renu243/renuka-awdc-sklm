@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+  int i,n,fact=1,sum=0;
+  printf("enter the value of n\n");
+  scanf("%d",&n);
+  for(i=1;i<=n;i++)
+{
+    fact=fact*i;
+    sum=sum+fact;
+}
+printf("the sum of a factorial value is %d",sum,n);
+    return 0;
+}
+output:
+enter the value of n
+5
+the sum of a factorial value is 153
